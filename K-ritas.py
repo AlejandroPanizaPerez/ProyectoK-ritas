@@ -136,6 +136,7 @@ if inicioSesion == "si":
                         menu=+1
 
                 if opc2==3:
+                    menuC =1
                     print("Enero")
                     print("Febrero")
                     print("Marzo")
@@ -148,7 +149,102 @@ if inicioSesion == "si":
                     print("Octubre")
                     print("Noviembre")
                     print("Diciembre")
-                    Calendario=input("Ingrese el mes en el que desea el evento")
+                    Calendario=input("Ingrese el mes en el que desea el evento: ")
+
+                    if Calendario=="Enero":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento")) 
+                        if fecha<=31:
+                            print("Fecha guardada con exito ")
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Febrero":    
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if  fecha<=28:
+                            print("Fecha guardada con exito")   
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Marzo":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito") 
+                        else :
+                            print("Fecha incorrecta ")
+                    
+                    if Calendario=="Abril":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=30:
+                            print("Fecha guardada con exito") 
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Mayo":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito")
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Junio":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=30:
+                            print("Fecha guardada con exito")    
+                        else :
+                            print("Fecha incorrecta ")    
+
+                    if Calendario=="Julio":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito")   
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Agosto":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito") 
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Septiembre":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=30:
+                            print("Fecha guardada con exito")   
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Octubre":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito")   
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Noviembre":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=30:
+                            print("Fecha guardada con exito")  
+                        else :
+                            print("Fecha incorrecta ")
+
+                    if Calendario=="Diciembre":
+                        fecha=int(input("Ingrese la fecha en la que desea el evento: "))
+                        if fecha<=31:
+                            print("Fecha guardada con exito")  
+                        else :
+                            print("Fecha incorrecta ")
+
+                    n1=int(input("Desea agendar otra fecha? si:1 no:2 "))     
+                    if n1==1:
+                        n1=+1
+                    elif n1==2:
+                        menu=input("Desea volver al menu de inicio? si, no")
+                    if menu=="si":
+                        menu=1
+                        menu=+1
+                    else :
+                        print("Sistema finalizado ")
 
 
 
